@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.home {
+    height: 100vh;
+    width: 100%;
+    background-color:white;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: #77838d;
+    border-bottom: 1px solid white;
+}
+.logo {
+    color:black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+nav ul {
+	list-style-type: none;
+	display: flex;
+	padding: 20px 25px;
+    
+
+}
+nav ul a {
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	text-transform: capitalize;
+}
+nav ul a:hover {
+	color: rgb(1, 14, 16);
+	transition: 0,1s;
+}
+
+
+nav ul li{
+    margin: 10px;
+}
+
+.about-aboutme {
+    width: 50% auto;
+    margin-bottom: 50px;  
+}
+
+
+.about-text {
+    width: 50% auto;
+    margin-bottom: 50px;
+}
+
+
+.about-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.deskripsi p {
+    color: black;
+    font-size: 25px;
+    font-style:Montserrat ;
+    width: 50% center;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
